@@ -40,3 +40,7 @@ def find_prime(n_i: int, n_f: int) -> List[int]:
         if len(factor(i)) == 1:
             result.append(i)
     return result
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod()
