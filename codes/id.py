@@ -1,4 +1,4 @@
-"""v1.1
+"""v1.2
 Identification card number checker （身份证号码检验）
 
 This small program has only one aim - to test whether or not the national
@@ -61,4 +61,3 @@ while id_card != '':
     else:
         print('The ID you have entered is not valid. Please try again.')
         id_card = input(prompt)
-        break
